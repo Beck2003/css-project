@@ -1,0 +1,118 @@
+html, head, body, h1, h2, a, p, div, ul, li {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+body {
+    height: max-content;
+}
+
+.background {
+    background-image: url(HTMLProjectAssets/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    filter: brightness(80%);
+}
+
+ul#nav {
+    list-style-type: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+ul li:first-child {
+    flex-grow: 2;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#navContainer hr {
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 200px;
+}
+
+#title p {
+    font-size: 40px;
+}
+
+#title hr {
+    margin-right: 37%;
+    margin-left: 37%;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+.container {
+    background-color: black;
+    height: 400px;
+    display: flex;
+}
+
+.bread img {
+    justify-content: flex-start;
+    height: 400px;
+    width: 500px;
+}
+
+.info {
+    color: white;
+    padding: 0 40px;
+    margin: auto 0;
+    flex-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+}
+.info h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.container2 {
+    background-color: rgb(24, 24, 24);
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pineapple img {
+    height: 400px;
+    width: 500px;
+    justify-content: flex-end;
+}
+
+.container3 {
+    background-color: rgb(38, 36, 36);
+    height: 400px;
+    display: flex;
+}
+
+.pasta img {
+    justify-content: flex-start;
+    height: 400px;
+    width: 500px;
+}
+
+p {
+    font-size: 20px;
+}
